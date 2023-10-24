@@ -1,2 +1,2 @@
 # Blood-Donation-Portal
-This is my first project of android 
+This is my first project  
