@@ -1,0 +1,11 @@
+create table donor(
+    -> donor_ID int primary key,
+    -> Name varchar(50),
+    -> BloodGroupID int,
+    -> Last_donation_date date,
+    -> Contact_no int(10),
+    -> AadharNo varchar(17),
+    -> Location varchar(30),
+    -> Donor_City varchar(30),
+    -> foreign key(BloodGroupID) references blood_groups(BloodGroupID)),
+    -> foreign key(Donor_City) references city(city_Id));

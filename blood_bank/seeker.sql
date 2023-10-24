@@ -1,0 +1,13 @@
+create table seeker(
+    -> Seeker_Id int primary key,
+    -> name varchar(40),
+    -> age int,
+    -> city_id int,
+    -> Blood_Group_Id int,
+    -> ContactNo int(10),
+    -> CNIC varchar(30),
+    -> GenderId int,
+    -> RegistrationDate date,
+    -> foreign key(city_id) references city(city_Id),
+    -> foreign key(Blood_Group_Id) references blood_groups(BloodGroupID),
+	-> foreign key(GenderId) references gender(GenderId);
