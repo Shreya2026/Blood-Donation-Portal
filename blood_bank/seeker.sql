@@ -10,4 +10,4 @@ create table seeker(
     -> RegistrationDate date,
     -> foreign key(city_id) references city(city_Id),
     -> foreign key(Blood_Group_Id) references blood_groups(BloodGroupID),
-	-> foreign key(GenderId) references gender(GenderId);
+    -> foreign key(GenderId) references gender(GenderId);
