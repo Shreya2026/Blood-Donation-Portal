@@ -7,5 +7,5 @@ create table donor(
     -> AadharNo varchar(17),
     -> Location varchar(30),
     -> Donor_City varchar(30),
-    -> foreign key(BloodGroupID) references blood_groups(BloodGroupID)),
+    -> foreign key(BloodGroupID) references blood_groups(BloodGroupID),
     -> foreign key(Donor_City) references city(city_Id));
